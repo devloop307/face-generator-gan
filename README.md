@@ -140,16 +140,6 @@ El modelo genera rostros sintéticos de alta calidad después del entrenamiento.
 4. Empuja a la rama (`git push origin feature/caracteristica-increible`)
 5. Abre un Pull Request
 
-## 📝 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## 🙏 Agradecimientos
-
-- Artículo original de GAN por Ian Goodfellow et al.
-- Conjunto de datos CelebA por MMLAB, CUHK
-- Comunidades de TensorFlow/PyTorch
-
 ## 📧 Contacto
 
 Tu Nombre - [tu.email@ejemplo.com](mailto:tu.email@ejemplo.com)
@@ -157,5 +147,3 @@ Tu Nombre - [tu.email@ejemplo.com](mailto:tu.email@ejemplo.com)
 Enlace del Proyecto: [https://github.com/tuusuario/generador-rostros-gan](https://github.com/tuusuario/generador-rostros-gan)
 
 ---
-
-⭐ ¡Si este proyecto te fue útil, por favor dale una estrella!
