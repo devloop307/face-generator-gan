@@ -9,7 +9,6 @@ from pathlib import Path
 
 class GeneradorRostros:
     """Clase para crear y entrenar un GAN generador de rostros"""
-    
     def __init__(self, latent_dim=100, img_shape=(64, 64, 3)):
         self.latent_dim = latent_dim
         self.img_shape = img_shape
@@ -160,11 +159,9 @@ class GeneradorRostros:
             
             for batch in dataset:
                 batch_size = tf.shape(batch)[0]
-                
                 # ---------------------
                 # Entrenar Discriminador
-                # ---------------------
-                
+                # ---------------------        
                 # Generar ruido aleatorio
                 noise = tf.random.normal([batch_size, self.latent_dim])
                 
